@@ -1,8 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build & Deploy Medusa
 
-run-name: CI - ${{ inputs.environment }}
+run-name: Build & Deploy Medusa - ${{ inputs.environment }}
 
 # Controls when the workflow will run
 on:
