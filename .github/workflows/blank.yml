@@ -2,7 +2,7 @@
 
 name: Build & Deploy Medusa
 
-run-name: Build & Deploy Medusa - ${{ inputs.environment }}
+run-name: Build & Deploy Medusa: ${{ inputs.environment }}
 
 # Controls when the workflow will run
 on:
