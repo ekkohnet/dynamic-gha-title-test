@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Infrastructure Plan / Deploy
+name: Infrastructure - Plan / Deploy
 
 run-name: "Infrastructure - Plan: ${{ inputs.environment }}"
 
