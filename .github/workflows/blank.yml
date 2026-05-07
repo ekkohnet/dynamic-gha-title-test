@@ -2,7 +2,7 @@
 
 name: Cloudflare - Deploy
 
-run-name: "Cloudflare - Deploy: ${{ inputs.app == 'api-gateway' && 'API Gateway' || inputs.app == 'website' && 'Website' || inputs.app == 'staff-portal' && 'Staff Portal' }}: ${{ inputs.environment == 'staging' && 'Staging' || 'Production' }}"
+run-name: "Cloudflare - Deploy: ${{ inputs.app == 'api-gateway' && 'API Gateway' || inputs.app == 'website' && 'Website' || inputs.app == 'staff-portal' && 'Staff Portal' }} - ${{ inputs.environment == 'staging' && 'Staging' || 'Production' }}"
 
 # Controls when the workflow will run
 on:
