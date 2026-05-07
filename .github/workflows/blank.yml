@@ -2,7 +2,7 @@
 
 name: Infrastructure - Plan / Deploy
 
-run-name: "Infrastructure - Plan: ${{ inputs.environment }}"
+run-name: "Infrastructure - Plan: ${{ inputs.environment == "poc" && "POC" || inputs.environment == "staging" && "Staging" || "Production" }}"
 
 # Controls when the workflow will run
 on:
